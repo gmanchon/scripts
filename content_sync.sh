@@ -19,10 +19,10 @@ echo "- provide the path to data-challenges and the commit to lookup as paramete
 echo "- . ./content_sync.sh ../data-challenges c2cd8589"
 echo ""
 
-# second parameter: target path for copy
+# first parameter: target path for copy
 target="${1}"
 
-# first parameter: the sha of the commit from which to search for updated files
+# second parameter: the sha of the commit from which to search for updated files
 sha="${2}"
 
 # list files updated by all the commits from $sha
