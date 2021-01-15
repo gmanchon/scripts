@@ -46,7 +46,7 @@ if [ $confirmation = "y" ]; then
 
   echo ""
   echo "🎉 success, see what happened:"
-  echo "- cd ../data-challenges && git st"
+  echo "- cd ${target} && git st"
 else
   echo ""
   echo ""
