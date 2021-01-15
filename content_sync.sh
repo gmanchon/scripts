@@ -1,11 +1,21 @@
 
-# goal: sync changes up from a commit from data-solutions to data-challenges
-# assume only copiable files where impacted, not the solutions
-# for example only README files
+# goal:
+#
+# sync changes up from a commit from data-solutions to data-challenges
+#
+# assumptions:
+#
+# - both repositories are checkout to the correct branch
+# - all the modified files are part of the solution and of the challenges
+# (every updated files are litteraly copied to the corresponding data-challenges directory)
+# typically you want to use this with changes applied only to README files
+# select the git hash accordingly
 
 # usage
 echo "🤖 usage:"
 echo "- position yourself in data-solutions:"
+echo "- checkout the correct branch in data-solutions and data-challenges"
+echo "- provide the path to data-challenges and the commit to lookup as parameters:"
 echo "- . ./content_sync.sh ../data-challenges c2cd8589"
 echo ""
 
